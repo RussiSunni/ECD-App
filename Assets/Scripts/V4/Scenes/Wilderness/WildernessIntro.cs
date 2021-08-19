@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 namespace V4
 {
-    public class ForestIntro : MonoBehaviour
+    public class WildernessIntro : MonoBehaviour
     {
         private float timeRemaining = 5;
 
@@ -17,7 +17,7 @@ namespace V4
             }
             else
             {
-                SceneManager.LoadScene("Forest001");
+                SceneManager.LoadScene("Wilderness01");
             }
         }
     }

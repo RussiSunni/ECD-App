@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 namespace V4
 {
-    public class Forest001 : MonoBehaviour
+    public class Wilderness01 : MonoBehaviour
     {
         int questionNumber;
 
@@ -41,7 +41,7 @@ namespace V4
             else if (questionNumber == 4)
             {
                 //AnimalNamesQuestionBank.LoadQuestionList();
-                SceneManager.LoadScene("Forest002");
+                SceneManager.LoadScene("Wilderness02");
             }
         }
 

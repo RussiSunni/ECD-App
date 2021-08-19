@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 namespace V4
 {
-    public class Forest002 : MonoBehaviour
+    public class Wilderness02 : MonoBehaviour
     {
         public Image questionImage, fairyImage;
         private Sprite fairyIncorrect,
@@ -54,7 +54,7 @@ namespace V4
         {
             if (finished)
             {
-                SceneManager.LoadScene("Forest003");
+                SceneManager.LoadScene("Wilderness03");
             }
             else if (questionNumber == 0)
             {

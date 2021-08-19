@@ -37,7 +37,7 @@ public class Menu : MonoBehaviour
     }
     public void Resume()
     {
-        previousScene = GameControl.currentSceneName;
+        //  previousScene = GameControl.currentSceneName;
         SceneManager.LoadScene(previousScene);
     }
     public void Quit()

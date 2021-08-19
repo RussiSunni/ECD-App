@@ -50,7 +50,7 @@
      <Compile Include="Assets\Scripts\V4\Question banks\SchoolQuestionBank.cs" />
      <Compile Include="Assets\Scripts\V4\Question banks\AnimalActionsQuestionBank.cs" />
      <Compile Include="Assets\Scripts\V2\Movement\DropPanel.cs" />
-     <Compile Include="Assets\Scripts\V4\Scenes\Forest\Forest001.cs" />
+     <Compile Include="Assets\Scripts\V4\Scenes\Wilderness\Wilderness01.cs" />
      <Compile Include="Assets\Scripts\V4\SoundManager.cs" />
      <Compile Include="Assets\Scripts\V2\MoveBlock2d.cs" />
      <Compile Include="Assets\Scripts\V2\Database\SQLite.cs" />
@@ -71,12 +71,12 @@
      <Compile Include="Assets\Scripts\V2\Database\DictionaryLookup.cs" />
      <Compile Include="Assets\Scripts\V4\Scenes\Scene002.cs" />
      <Compile Include="Assets\Scripts\V2\Question banks\DomesticAnimalQuestionBank.cs" />
-     <Compile Include="Assets\Scripts\V4\Scenes\Forest\Forest002.cs" />
+     <Compile Include="Assets\Scripts\V4\Scenes\Wilderness\Wilderness02.cs" />
      <Compile Include="Assets\Scripts\V4\SimpleProgress.cs" />
      <Compile Include="Assets\Scripts\V4\Scenes\Farm\Farm002.cs" />
      <Compile Include="Assets\Scripts\V2\Database\DataService.cs" />
      <Compile Include="Assets\Scripts\V2\Movement\DraggableBlock.cs" />
-     <Compile Include="Assets\Scripts\V4\Scenes\Forest\ForestIntro.cs" />
+     <Compile Include="Assets\Scripts\V4\Scenes\Wilderness\WildernessIntro.cs" />
      <Compile Include="Assets\Scripts\V4\Question.cs" />
      <Compile Include="Assets\Scripts\V4\Intro\MapText.cs" />
      <Compile Include="Assets\Scripts\Map.cs" />
