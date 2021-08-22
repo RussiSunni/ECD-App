@@ -17,7 +17,7 @@ public class AppControl : MonoBehaviour
     {
         questionImage.sprite = Resources.Load<Sprite>("V2/VocabImages/DOG");
 
-        DomesticAnimalQuestionBank.LoadQuestionList();
+
 
         // questionImage.sprite = DomesticAnimalQuestionBank.domesticAnimalNameQuestions[1].sprite;
     }
