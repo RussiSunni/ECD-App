@@ -66,7 +66,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 1,
             questionName = "animal",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Animal"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Animal"),
             answerOptions = new List<string>()
         {
             "animal",
@@ -87,7 +87,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 2,
             questionName = "bear",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Bear"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Bear"),
             answerOptions = new List<string>()
         {
             "bear",
@@ -115,7 +115,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 3,
             questionName = "bee",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Bee"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Bee"),
             answerOptions = new List<string>()
         {
             "shark",
@@ -136,7 +136,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 4,
             questionName = "bird",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Bird"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Bird"),
             answerOptions = new List<string>()
         {
             "shark",
@@ -157,7 +157,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 5,
             questionName = "cat",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Cat"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Cat"),
             answerOptions = new List<string>()
         {
             "bear",
@@ -184,7 +184,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 6,
             questionName = "chicken",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Chicken"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Chicken"),
             answerOptions = new List<string>()
         {
             "bear",
@@ -215,7 +215,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 7,
             questionName = "cow",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Cow"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Cow"),
             answerOptions = new List<string>()
         {
             "cow",
@@ -242,7 +242,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 8,
             questionName = "crocodile",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Crocodile"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Crocodile"),
             answerOptions = new List<string>()
         {
             "crocodile",
@@ -275,7 +275,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 9,
             questionName = "dog",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Dog"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Dog"),
             answerOptions = new List<string>()
         {
             "bear",
@@ -302,7 +302,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 10,
             questionName = "donkey",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Donkey"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Donkey"),
             answerOptions = new List<string>()
         {
             "bear",
@@ -332,7 +332,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 11,
             questionName = "duck",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Duck"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Duck"),
             answerOptions = new List<string>()
         {
             "duck",
@@ -360,7 +360,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 12,
             questionName = "elephant",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Elephant"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Elephant"),
             answerOptions = new List<string>()
         {
             "tiger",
@@ -392,7 +392,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 13,
             questionName = "fish",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Fish"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Fish"),
             answerOptions = new List<string>()
         {
             "tiger",
@@ -413,7 +413,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 14,
             questionName = "frog",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Frog"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Frog"),
             answerOptions = new List<string>()
         {
             "rabbit",
@@ -441,7 +441,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 15,
             questionName = "giraffe",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Giraffe"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Giraffe"),
             answerOptions = new List<string>()
         {
             "giraffe",
@@ -472,7 +472,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 16,
             questionName = "goat",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Goat"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Goat"),
             answerOptions = new List<string>()
         {
             "giraffe",
@@ -500,7 +500,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 18,
             questionName = "horse",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Horse"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Horse"),
             answerBlocks = new List<char>()
         {
             'H',
@@ -521,7 +521,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 20,
             questionName = "lizard",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Lizard"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Lizard"),
             answerOptions = new List<string>()
         {
             "tiger",
@@ -553,7 +553,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 21,
             questionName = "monkey",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Monkey"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Monkey"),
             answerOptions = new List<string>()
         {
             "monkey",
@@ -627,7 +627,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 26,
             questionName = "snake",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Snake"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Snake"),
             answerOptions = new List<string>()
         {
             "kangaroo",
@@ -657,7 +657,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 28,
             questionName = "tiger",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Tiger"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Tiger"),
             answerOptions = new List<string>()
         {
             "tiger",
@@ -687,7 +687,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 30,
             questionName = "zebra",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Pre_A1_Starters/Zebra"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Zebra"),
             answerOptions = new List<string>()
         {
             "dog",
@@ -725,7 +725,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 32,
             questionName = "bat",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Bat"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Bat"),
             answerOptions = new List<string>()
         {
             "tiger",
@@ -752,7 +752,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 34,
             questionName = "dolphin",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Dolphin"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Dolphin"),
             answerOptions = new List<string>()
         {
             "shark",
@@ -783,7 +783,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 36,
             questionName = "kangaroo",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Kangaroo"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Kangaroo"),
             answerOptions = new List<string>()
         {
             "kangaroo",
@@ -815,7 +815,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 38,
             questionName = "lion",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Lion"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Lion"),
             answerOptions = new List<string>()
         {
             "giraffe",
@@ -843,7 +843,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 39,
             questionName = "panda",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Panda"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Panda"),
             answerOptions = new List<string>()
         {
             "kangaroo",
@@ -873,7 +873,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 40,
             questionName = "parrot",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Parrot"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Parrot"),
             answerOptions = new List<string>()
         {
             "monkey",
@@ -903,7 +903,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 41,
             questionName = "penguin",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Penguin"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Penguin"),
             answerOptions = new List<string>()
         {
             "kangaroo",
@@ -935,7 +935,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 43,
             questionName = "rabbit",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Rabbit"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Rabbit"),
             answerOptions = new List<string>()
         {
             "rabbit",
@@ -965,7 +965,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 44,
             questionName = "shark",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Shark"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Shark"),
             answerOptions = new List<string>()
         {
             "shark",
@@ -1002,7 +1002,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 52,
             questionName = "eagle",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Eagle"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Eagle"),
             answerOptions = new List<string>()
         {
             "tiger",
@@ -1031,7 +1031,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 58,
             questionName = "swan",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Swan"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Swan"),
             answerOptions = new List<string>()
         {
             "kangaroo",
@@ -1059,7 +1059,7 @@ public class AnimalsQuestionBank : Question
         {
             number = 59,
             questionName = "tortoise",
-            sprite = Resources.Load<Sprite>("V4/Questions/Animals/Tortoise"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Tortoise"),
             answerOptions = new List<string>()
         {
             "tortoise",

@@ -154,8 +154,8 @@ namespace V4
         {
             if (timerReady == true)
             {
-                Debug.Log(questionNumber);
-                Debug.Log(AnimalsQuestionBank.questions.Count);
+                //   Debug.Log(questionNumber);
+                //   Debug.Log(AnimalsQuestionBank.questions.Count);
 
                 if (correctAnswer == true)
                 {
