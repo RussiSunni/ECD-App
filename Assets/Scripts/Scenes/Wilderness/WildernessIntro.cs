@@ -17,7 +17,7 @@ namespace V4
             }
             else
             {
-                SceneManager.LoadScene("Wilderness01");
+                SceneManager.LoadScene("Wilderness001");
             }
         }
     }

@@ -13,7 +13,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -44,19 +44,21 @@
      <Compile Include="Assets\Scripts\V2\Movement\TargetDropPanel.cs" />
      <Compile Include="Assets\Scripts\V2\Question banks\WildAnimalQuestionBank.cs" />
      <Compile Include="Assets\Scripts\V2\Database\ExistingDBScript.cs" />
+     <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\V2\Intro\MapText.cs" />
      <Compile Include="Assets\Scripts\V4\Intro\Intro02Script.cs" />
      <Compile Include="Assets\Scripts\Scenes\School\SchoolIntro.cs" />
      <Compile Include="Assets\Scripts\Question Banks\SchoolQuestionBank.cs" />
      <Compile Include="Assets\Scripts\Question Banks\AnimalActionsQuestionBank.cs" />
      <Compile Include="Assets\Scripts\V2\Movement\DropPanel.cs" />
-     <Compile Include="Assets\Scripts\Scenes\Wilderness\Wilderness01.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Wilderness\Wilderness001.cs" />
      <Compile Include="Assets\Scripts\V2\MoveBlock2d.cs" />
      <Compile Include="Assets\Scripts\V2\Database\SQLite.cs" />
      <Compile Include="Assets\Scripts\V4\Intro\Intro01Script.cs" />
      <Compile Include="Assets\Scripts\Question Banks\Question.cs" />
      <Compile Include="Assets\Scripts\Question Banks\VerbsQuestionBank.cs" />
      <Compile Include="Assets\Scripts\Question Banks\AnimalFoodQuestionBank.cs" />
+     <Compile Include="Assets\Scripts\Scenes\School\SchoolSubMap.cs" />
      <Compile Include="Assets\Scripts\Question Banks\AnimalsQuestionBank.cs" />
      <Compile Include="Assets\Scripts\V2\DragUI.cs" />
      <Compile Include="Assets\Scripts\Scenes\Town\TownIntro.cs" />
@@ -65,14 +67,15 @@
      <Compile Include="Assets\Scripts\V4\SimpleLoadMenu.cs" />
      <Compile Include="Assets\Scripts\StartMenu.cs" />
      <Compile Include="Assets\Scripts\V4\GameControl.cs" />
-     <Compile Include="Assets\Scripts\Scenes\Wilderness\Wilderness03.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Wilderness\Wilderness003.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\GameLibraryMenu.cs" />
      <Compile Include="Assets\Scripts\V2\Intro\IntroImage.cs" />
      <Compile Include="Assets\Scripts\V2\Database\DictionaryLookup.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Wilderness\WildernessSubMap.cs" />
      <Compile Include="Assets\Scripts\Scenes\Scene002.cs" />
      <Compile Include="Assets\Scripts\V2\Question banks\DomesticAnimalQuestionBank.cs" />
-     <Compile Include="Assets\Scripts\Scenes\Wilderness\Wilderness02.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Wilderness\Forest001.cs" />
      <Compile Include="Assets\Scripts\V4\SimpleProgress.cs" />
      <Compile Include="Assets\Scripts\Scenes\Farm\Farm002.cs" />
      <Compile Include="Assets\Scripts\V2\Database\DataService.cs" />
@@ -82,10 +85,10 @@
      <Compile Include="Assets\Scripts\V4\Intro\MapText.cs" />
      <Compile Include="Assets\Scripts\Map.cs" />
      <Compile Include="Assets\Scripts\Scenes\School\School002.cs" />
-     <Compile Include="Assets\Scripts\Scenes\Wilderness\Wilderness04.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Wilderness\Forest002.cs" />
      <Compile Include="Assets\Scripts\V2\Intro\MapImage.cs" />
      <Compile Include="Assets\Scripts\Scenes\Farm\Farm001.cs" />
-     <Compile Include="Assets\Scripts\SoundManager.cs" />
+     <Compile Include="Assets\Scripts\Question Banks\ForestQuestionBank.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

@@ -44,7 +44,7 @@ public class TargetDropPanel : MonoBehaviour, IDropHandler, IPointerEnterHandler
         {
             if (gameObject.transform.GetChild(0).gameObject.name == "D")
             {
-                Wilderness04.answerCounter++;
+                Forest002.answerCounter++;
             }
         }
 
@@ -52,7 +52,7 @@ public class TargetDropPanel : MonoBehaviour, IDropHandler, IPointerEnterHandler
         {
             if (gameObject.transform.GetChild(0).gameObject.name == "O")
             {
-                Wilderness04.answerCounter++;
+                Forest002.answerCounter++;
             }
         }
 
@@ -60,17 +60,15 @@ public class TargetDropPanel : MonoBehaviour, IDropHandler, IPointerEnterHandler
         {
             if (gameObject.transform.GetChild(0).gameObject.name == "G")
             {
-                Wilderness04.answerCounter++;
+                Forest002.answerCounter++;
             }
         }
 
 
-        if (Wilderness04.answerCounter == 3)
+        if (Forest002.answerCounter == 3)
         {
-            var wilderness04Script = GameObject.Find("Code").GetComponent<Wilderness04>();
-            wilderness04Script.NextQuestion();
-
-
+            var forest002Script = GameObject.Find("Code").GetComponent<Forest002>();
+            forest002Script.NextQuestion();
         }
 
         // Debug.Log(gameObject.transform.GetChild(0).gameObject.name);

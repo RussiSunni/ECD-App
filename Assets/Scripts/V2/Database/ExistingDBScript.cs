@@ -28,7 +28,7 @@ public class ExistingDBScript : MonoBehaviour
         {
             //  ToConsole(dictionaryLookup.ToString());
             //GameControl.dictionaryLookups.Add(dictionaryLookup.Name, dictionaryLookup.Sprite);
-            Wilderness04.dictionaryLookupsList.Add(dictionaryLookup);
+            Forest002.dictionaryLookupsList.Add(dictionaryLookup);
 
             ToConsole(dictionaryLookup.ToString());
         }
