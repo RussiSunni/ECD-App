@@ -15,6 +15,9 @@ public class ForestQuestionBank : Question
     public static Question forest007 = new Question();
     public static Question forest008 = new Question();
     public static Question forest009 = new Question();
+    public static Question forest010 = new Question();
+    public static Question forest011 = new Question();
+    public static Question forest012 = new Question();
 
     void Start()
     {
@@ -111,7 +114,7 @@ public class ForestQuestionBank : Question
 
         forest005 = new Question()
         {
-            number = 11,
+            number = 5,
             questionName = "duck",
             sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Duck"),
             answerOptions = new List<string>()
@@ -139,7 +142,7 @@ public class ForestQuestionBank : Question
 
         forest006 = new Question()
         {
-            number = 14,
+            number = 6,
             questionName = "frog",
             sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Frog"),
             answerOptions = new List<string>()
@@ -167,7 +170,7 @@ public class ForestQuestionBank : Question
 
         forest007 = new Question()
         {
-            number = 20,
+            number = 7,
             questionName = "lizard",
             sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Lizard"),
             answerOptions = new List<string>()
@@ -197,7 +200,7 @@ public class ForestQuestionBank : Question
 
         forest008 = new Question()
         {
-            number = 22,
+            number = 8,
             questionName = "mouse",
             sprite = Resources.Load<Sprite>("Questions/Animals/Mouse"),
             answerBlocks = new List<char>()
@@ -218,7 +221,7 @@ public class ForestQuestionBank : Question
 
         forest009 = new Question()
         {
-            number = 26,
+            number = 9,
             questionName = "snake",
             sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Snake"),
             answerOptions = new List<string>()
@@ -245,6 +248,70 @@ public class ForestQuestionBank : Question
             level = 1
         };
 
+        forest010 = new Question()
+        {
+            number = 10,
+            questionName = "flower",
+            sprite = Resources.Load<Sprite>("Questions/Home/Pre_A1_Starters/Flower"),
+            answerOptions = new List<string>()
+        {
+            "flower",
+            "panda",
+            "swan",
+            "bird"
+        },
+            tags = new List<string>()
+        {
+            "home"
+        },
+            size = 1,
+            answerSound = "Flower",
+            level = 1
+        };
+
+        forest011 = new Question()
+        {
+            number = 11,
+            questionName = "tail",
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Tail"),
+            answerOptions = new List<string>()
+        {
+            "tail",
+            "panda",
+            "swan",
+            "bird"
+        },
+            tags = new List<string>()
+        {
+            "animals"
+        },
+            size = 1,
+            answerSound = "Tail",
+            level = 1
+        };
+
+        forest012 = new Question()
+        {
+            number = 12,
+            questionName = "tree",
+            sprite = Resources.Load<Sprite>("Questions/Home/Pre_A1_Starters/Tree"),
+            answerOptions = new List<string>()
+        {
+            "tree",
+            "panda",
+            "swan",
+            "bird"
+        },
+            tags = new List<string>()
+        {
+            "animals"
+        },
+            size = 1,
+            answerSound = "Tree",
+            level = 1
+        };
+
+
         LoadForestQuestionList();
     }
 
@@ -267,6 +334,14 @@ public class ForestQuestionBank : Question
         questions.Add(forest007);
 
         questions.Add(forest008);
+
+        questions.Add(forest009);
+
+        questions.Add(forest010);
+
+        questions.Add(forest011);
+
+        questions.Add(forest012);
 
         questions = questions.OrderBy(x => System.Guid.NewGuid()).ToList();
 

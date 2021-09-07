@@ -8,7 +8,8 @@ namespace V4
 {
     public class Forest001 : MonoBehaviour
     {
-        public Image questionImage, fairyImage;
+        public Image questionImage, fairyImage, menuPanel;
+        public RectTransform menuPanelRectTransform;
         private Sprite fairyIncorrect,
                        fairyNeutral,
                        fairyCorrect;
@@ -48,6 +49,30 @@ namespace V4
             Answer1();
 
             //print(ForestQuestionBank.questions[0].answerOptions[0]);
+        }
+
+        public void FairyMenu()
+        {
+            if (menuPanel.GetComponent<CanvasGroup>().interactable == false)
+            {
+                menuPanel.GetComponent<CanvasGroup>().alpha = 1.0f;
+                menuPanel.GetComponent<CanvasGroup>().interactable = true;
+            }
+            else
+            {
+                menuPanel.GetComponent<CanvasGroup>().alpha = 0.0f;
+                menuPanel.GetComponent<CanvasGroup>().interactable = false;
+            }
+        }
+
+        public void Quit()
+        {
+            SceneManager.LoadScene("WorldMap");
+        }
+        public void Cancel()
+        {
+            menuPanel.GetComponent<CanvasGroup>().alpha = 0.0f;
+            menuPanel.GetComponent<CanvasGroup>().interactable = false;
         }
 
         public void Answer1()

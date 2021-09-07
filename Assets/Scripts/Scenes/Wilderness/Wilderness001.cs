@@ -39,7 +39,7 @@ public class Wilderness001 : MonoBehaviour
         else if (questionNumber == 4)
         {
             //AnimalNamesQuestionBank.LoadQuestionList();
-            SceneManager.LoadScene("Forest001");
+            SceneManager.LoadScene("WildernessSubMap");
         }
     }
 

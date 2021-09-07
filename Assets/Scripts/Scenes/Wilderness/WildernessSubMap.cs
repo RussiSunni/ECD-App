@@ -7,22 +7,22 @@ public class WildernessSubMap : MonoBehaviour
 {
     public void LoadForestSubStage()
     {
-        SceneManager.LoadScene("WildernessIntro");
+        SceneManager.LoadScene("Forest001");
     }
     public void LoadJungleSubStage()
     {
-        SceneManager.LoadScene("SchoolIntro");
+        SceneManager.LoadScene("Jungle001");
     }
     public void LoadDesertSubStage()
     {
-        SceneManager.LoadScene("TownIntro");
+        SceneManager.LoadScene("DesertIntro");
     }
     public void LoadTundraSubStage()
     {
-        SceneManager.LoadScene("HouseIntro");
+        SceneManager.LoadScene("TundraIntro");
     }
     public void LoadSavannahSubStage()
     {
-        SceneManager.LoadScene("OceanIntro");
+        SceneManager.LoadScene("SavannahIntro");
     }
 }

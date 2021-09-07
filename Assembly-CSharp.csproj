@@ -40,6 +40,7 @@
      <Compile Include="Assets\Scripts\V2\Intro\IntroButtonText.cs" />
      <Compile Include="Assets\Scripts\V2\Question banks\Question.cs" />
      <Compile Include="Assets\Scripts\Question Banks\CommunicationsAndTechnologyQuestionBank.cs" />
+     <Compile Include="Assets\Scripts\Map\MapFairy.cs" />
      <Compile Include="Assets\Scripts\Question Banks\FamilyQuestionBank.cs" />
      <Compile Include="Assets\Scripts\V2\Movement\TargetDropPanel.cs" />
      <Compile Include="Assets\Scripts\V2\Question banks\WildAnimalQuestionBank.cs" />
@@ -61,6 +62,7 @@
      <Compile Include="Assets\Scripts\Scenes\School\SchoolSubMap.cs" />
      <Compile Include="Assets\Scripts\Question Banks\AnimalsQuestionBank.cs" />
      <Compile Include="Assets\Scripts\V2\DragUI.cs" />
+     <Compile Include="Assets\Scripts\Question Banks\ForestQuestionBank.cs" />
      <Compile Include="Assets\Scripts\Scenes\Town\TownIntro.cs" />
      <Compile Include="Assets\Scripts\Scenes\Scene003.cs" />
      <Compile Include="Assets\Scripts\V4\Intro\MapImage.cs" />
@@ -73,6 +75,7 @@
      <Compile Include="Assets\Scripts\V2\Intro\IntroImage.cs" />
      <Compile Include="Assets\Scripts\V2\Database\DictionaryLookup.cs" />
      <Compile Include="Assets\Scripts\Scenes\Wilderness\WildernessSubMap.cs" />
+     <Compile Include="Assets\Scripts\Scenes\Wilderness\Jungle001.cs" />
      <Compile Include="Assets\Scripts\Scenes\Scene002.cs" />
      <Compile Include="Assets\Scripts\V2\Question banks\DomesticAnimalQuestionBank.cs" />
      <Compile Include="Assets\Scripts\Scenes\Wilderness\Forest001.cs" />
@@ -83,12 +86,12 @@
      <Compile Include="Assets\Scripts\Scenes\Wilderness\WildernessIntro.cs" />
      <Compile Include="Assets\Scripts\V4\Question.cs" />
      <Compile Include="Assets\Scripts\V4\Intro\MapText.cs" />
-     <Compile Include="Assets\Scripts\Map.cs" />
+     <Compile Include="Assets\Scripts\Map\Map.cs" />
      <Compile Include="Assets\Scripts\Scenes\School\School002.cs" />
      <Compile Include="Assets\Scripts\Scenes\Wilderness\Forest002.cs" />
      <Compile Include="Assets\Scripts\V2\Intro\MapImage.cs" />
      <Compile Include="Assets\Scripts\Scenes\Farm\Farm001.cs" />
-     <Compile Include="Assets\Scripts\Question Banks\ForestQuestionBank.cs" />
+     <Compile Include="Assets\Scripts\Question Banks\JungleQuestionBank.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
