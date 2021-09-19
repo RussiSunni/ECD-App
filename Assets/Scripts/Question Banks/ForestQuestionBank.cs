@@ -29,9 +29,9 @@ public class ForestQuestionBank : Question
             answerOptions = new List<string>()
         {
             "animal",
-            "panda",
-            "swan",
-            "dolphin"
+            "tree",
+            "flower",
+            "doll"
         },
             tags = new List<string>()
         {

@@ -30,9 +30,9 @@ public class JungleQuestionBank : Question
             answerOptions = new List<string>()
         {
             "animal",
-            "panda",
-            "swan",
-            "dolphin"
+            "flower",
+            "tree",
+            "doll"
         },
             tags = new List<string>()
         {
@@ -198,6 +198,13 @@ public class JungleQuestionBank : Question
             number = 8,
             questionName = "mango",
             sprite = Resources.Load<Sprite>("Questions/FoodAndDrink/Mango"),
+            answerOptions = new List<string>()
+        {
+            "mango",
+            "elephant",
+            "goat",
+            "lizard"
+        },
             answerBlocks = new List<char>()
         {
             'M',
@@ -219,6 +226,13 @@ public class JungleQuestionBank : Question
             number = 9,
             questionName = "monkey",
             sprite = Resources.Load<Sprite>("Questions/Animals/Monkey"),
+            answerOptions = new List<string>()
+        {
+            "monkey",
+            "elephant",
+            "goat",
+            "lizard"
+        },
             answerBlocks = new List<char>()
         {
             'M',
@@ -386,6 +400,6 @@ public class JungleQuestionBank : Question
 
         questions = questions.OrderBy(x => System.Guid.NewGuid()).ToList();
 
-        // Debug.Log(questions.Count);
+        //Debug.Log(questions.Count);
     }
 }

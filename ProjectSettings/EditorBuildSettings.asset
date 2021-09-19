@@ -33,6 +33,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Wilderness/Forest002.unity
     guid: bee08717eeeee38fdb4b9102cdde17f3
   - enabled: 1
+    path: Assets/Scenes/Wilderness/Jungle001.unity
+    guid: 8c218783049e3cb4385ba2090b20e520
+  - enabled: 1
+    path: Assets/Scenes/Wilderness/Desert001.unity
+    guid: 9fabcc8f2d980d1448822fc0f9d8dc9d
+  - enabled: 1
+    path: Assets/Scenes/Wilderness/ThePole001.unity
+    guid: 68f398f258516c140ad1c615fe9e47c4
+  - enabled: 1
     path: Assets/Scenes/School/SchoolIntro.unity
     guid: 7d34906f9b26d3148b16e74916bc538c
   - enabled: 1

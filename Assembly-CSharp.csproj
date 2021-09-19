@@ -95,6 +95,7 @@
      <Compile Include="Assets\Scripts\Scenes\House\HouseSubmap.cs" />
      <Compile Include="Assets\Scripts\Scenes\Town\TownSubmap.cs" />
      <Compile Include="Assets\Scripts\Scenes\Ocean\OceanSubmap.cs" />
+     <Compile Include="Assets\Scripts\QuestionTemplates\MultipleChoice.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

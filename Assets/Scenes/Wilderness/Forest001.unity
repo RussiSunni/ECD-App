@@ -314,8 +314,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01cd679a1b9ee48bf9c546f6ce2cb97e, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 2a557c141b5f7a918a546a8ad986783e, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -1609,8 +1609,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01cd679a1b9ee48bf9c546f6ce2cb97e, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 2a557c141b5f7a918a546a8ad986783e, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -1688,8 +1688,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01cd679a1b9ee48bf9c546f6ce2cb97e, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 2a557c141b5f7a918a546a8ad986783e, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -2030,9 +2030,7 @@ MonoBehaviour:
   fairyImage: {fileID: 709093647}
   menuPanel: {fileID: 1856165552}
   menuPanelRectTransform: {fileID: 1856165550}
-  artemisSprite: {fileID: 0}
   timeRemaining: 0
-  fairyTalk: {fileID: 142022497}
 --- !u!4 &1661714691
 Transform:
   m_ObjectHideFlags: 0
@@ -2132,8 +2130,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01cd679a1b9ee48bf9c546f6ce2cb97e, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 2a557c141b5f7a918a546a8ad986783e, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3

@@ -181,8 +181,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01cd679a1b9ee48bf9c546f6ce2cb97e, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 2a557c141b5f7a918a546a8ad986783e, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -326,8 +326,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01cd679a1b9ee48bf9c546f6ce2cb97e, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 2a557c141b5f7a918a546a8ad986783e, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -430,8 +430,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1252272086}
+        m_TargetAssemblyTypeName: V4.MultipleChoice, Assembly-CSharp
         m_MethodName: Answer3
         m_Mode: 1
         m_Arguments:
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9fe4125d0f97eaa40beb653cd929d9d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7ea0a1befd42d1840ac0b16c2677a2af, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -839,8 +839,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01cd679a1b9ee48bf9c546f6ce2cb97e, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 2a557c141b5f7a918a546a8ad986783e, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -943,8 +943,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1252272086}
+        m_TargetAssemblyTypeName: V4.MultipleChoice, Assembly-CSharp
         m_MethodName: Answer4
         m_Mode: 1
         m_Arguments:
@@ -1151,7 +1151,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1252272086}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Jungle001, Assembly-CSharp
         m_MethodName: Quit
         m_Mode: 1
@@ -1259,8 +1259,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 01cd679a1b9ee48bf9c546f6ce2cb97e, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: 2a557c141b5f7a918a546a8ad986783e, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -1463,11 +1463,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2680361970220138810, guid: 293bf108a8a78c245b2de984dfb7dac2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.45
+      value: -2.13
       objectReference: {fileID: 0}
     - target: {fileID: -2680361970220138810, guid: 293bf108a8a78c245b2de984dfb7dac2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.16
+      value: -2.93
       objectReference: {fileID: 0}
     - target: {fileID: -2680361970220138810, guid: 293bf108a8a78c245b2de984dfb7dac2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1651,8 +1651,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1252272085}
-  - component: {fileID: 1252272086}
   - component: {fileID: 1252272087}
+  - component: {fileID: 1252272086}
   m_Layer: 0
   m_Name: Code
   m_TagString: Untagged
@@ -1683,11 +1683,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1252272084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d5b8133c6d3b494cbac3f15d00d8176, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a3d9d2050318e941a590db82b7b2384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionImage: {fileID: 0}
-  fairyImage: {fileID: 0}
+  questionImage: {fileID: 915154377}
+  fairyImage: {fileID: 1654771313}
   menuPanel: {fileID: 1107102147}
   menuPanelRectTransform: {fileID: 1107102145}
   timeRemaining: 0
@@ -1801,7 +1801,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1252272086}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Jungle001, Assembly-CSharp
         m_MethodName: Cancel
         m_Mode: 1
@@ -1934,8 +1934,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1252272086}
+        m_TargetAssemblyTypeName: V4.MultipleChoice, Assembly-CSharp
         m_MethodName: Answer2
         m_Mode: 1
         m_Arguments:
@@ -2247,8 +2247,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 1252272086}
+        m_TargetAssemblyTypeName: V4.MultipleChoice, Assembly-CSharp
         m_MethodName: Answer1
         m_Mode: 1
         m_Arguments:
@@ -2379,7 +2379,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1252272086}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Jungle001, Assembly-CSharp
         m_MethodName: FairyMenu
         m_Mode: 1

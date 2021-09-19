@@ -73,7 +73,7 @@ namespace V4
         {
             if (finished)
             {
-                SceneManager.LoadScene("Wilderness003");
+                SceneManager.LoadScene("WildernessSubmap");
             }
             else if (questionNumber == 0)
             {

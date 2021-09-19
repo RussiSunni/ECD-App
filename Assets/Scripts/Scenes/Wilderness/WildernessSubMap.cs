@@ -19,14 +19,14 @@ public class WildernessSubmap : MonoBehaviour
     }
     public void LoadDesertSubStage()
     {
-        SceneManager.LoadScene("DesertIntro");
+        SceneManager.LoadScene("Desert001");
     }
-    public void LoadTundraSubStage()
+    public void ThePoleSubStage()
     {
-        SceneManager.LoadScene("TundraIntro");
+        SceneManager.LoadScene("ThePole001");
     }
     public void LoadSavannahSubStage()
     {
-        SceneManager.LoadScene("SavannahIntro");
+        SceneManager.LoadScene("Savannah001");
     }
 }

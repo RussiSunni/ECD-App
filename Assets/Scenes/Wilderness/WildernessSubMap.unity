@@ -1521,8 +1521,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1851628603}
-        m_TargetAssemblyTypeName: WildernessSubMap, Assembly-CSharp
-        m_MethodName: LoadTundraSubStage
+        m_TargetAssemblyTypeName: WildernessSubmap, Assembly-CSharp
+        m_MethodName: ThePoleSubStage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1903,7 +1903,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tundra
+  m_Text: The Pole
 --- !u!222 &1865805617
 CanvasRenderer:
   m_ObjectHideFlags: 0
