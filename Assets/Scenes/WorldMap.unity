@@ -481,11 +481,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1675901290}
   - {fileID: 1841040129}
   - {fileID: 798266621}
   - {fileID: 882677381}
   - {fileID: 1623841034}
+  - {fileID: 1675901290}
   m_Father: {fileID: 413597888}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -764,7 +764,7 @@ RectTransform:
   m_Children:
   - {fileID: 2113361411}
   m_Father: {fileID: 640812962}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -976,7 +976,7 @@ RectTransform:
   m_Children:
   - {fileID: 117319611}
   m_Father: {fileID: 640812962}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1410,7 +1410,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1512299007
 GameObject:
@@ -1558,7 +1558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4841038292724845216, guid: 4812835728affc4468656fde0e710c83, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -4841038292724845216, guid: 4812835728affc4468656fde0e710c83, type: 3}
       propertyPath: m_LocalScale.x
@@ -1726,7 +1726,7 @@ RectTransform:
   m_Children:
   - {fileID: 2080210123}
   m_Father: {fileID: 640812962}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2017,7 +2017,7 @@ RectTransform:
   m_Children:
   - {fileID: 718231731}
   m_Father: {fileID: 640812962}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2069,8 +2069,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1252344053}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: LoadFarmStage
+        m_TargetAssemblyTypeName: Map, Assembly-CSharp
+        m_MethodName: LoadOceanStage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2150,7 +2150,7 @@ RectTransform:
   m_Children:
   - {fileID: 2036242254}
   m_Father: {fileID: 640812962}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2353,7 +2353,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1942048012
 BoxCollider2D:

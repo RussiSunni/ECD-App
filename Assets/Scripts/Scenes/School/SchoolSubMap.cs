@@ -3,22 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SchoolSubMap : MonoBehaviour
+public class SchoolSubmap : MonoBehaviour
 {
+    public void LoadWorldMap()
+    {
+        SceneManager.LoadScene("WorldMap");
+    }
     public void LoadLibrarySubStage()
     {
-        SceneManager.LoadScene("WildernessIntro");
+        //  SceneManager.LoadScene("WildernessIntro");
     }
     public void LoadClassroomSubStage()
     {
-        SceneManager.LoadScene("SchoolIntro");
+        // SceneManager.LoadScene("SchoolIntro");
     }
     public void LoadSportsFieldSubStage()
     {
-        SceneManager.LoadScene("TownIntro");
+        // SceneManager.LoadScene("TownIntro");
     }
     public void LoadGymSubStage()
     {
-        SceneManager.LoadScene("HouseIntro");
+        // SceneManager.LoadScene("HouseIntro");
     }
 }

@@ -8,6 +8,14 @@ public class Jungle001 : MonoBehaviour
 {
     public Image questionImage, fairyImage, menuPanel;
     public RectTransform menuPanelRectTransform;
+    private Sprite fairyIncorrect,
+                  fairyNeutral,
+                  fairyCorrect;
+    int questionNumber = 0;
+    Text answerText1, answerText2, answerText3, answerText4;
+    public float timeRemaining = 0;
+    bool timerReady, correctAnswer, finished = false;
+
     public void FairyMenu()
     {
         if (menuPanel.GetComponent<CanvasGroup>().interactable == false)

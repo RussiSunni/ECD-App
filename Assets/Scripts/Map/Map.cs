@@ -7,22 +7,22 @@ public class Map : MonoBehaviour
 {
     public void LoadWildernessStage()
     {
-        SceneManager.LoadScene("WildernessIntro");
+        SceneManager.LoadScene("WildernessSubmap");
     }
     public void LoadSchoolStage()
     {
-        SceneManager.LoadScene("SchoolIntro");
+        SceneManager.LoadScene("SchoolSubmap");
     }
     public void LoadTownStage()
     {
-        SceneManager.LoadScene("TownIntro");
+        SceneManager.LoadScene("TownSubmap");
     }
     public void LoadHouseStage()
     {
-        SceneManager.LoadScene("HouseIntro");
+        SceneManager.LoadScene("HouseSubmap");
     }
     public void LoadOceanStage()
     {
-        SceneManager.LoadScene("OceanIntro");
+        SceneManager.LoadScene("OceanSubmap");
     }
 }

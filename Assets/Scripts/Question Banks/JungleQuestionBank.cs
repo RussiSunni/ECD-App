@@ -18,6 +18,7 @@ public class JungleQuestionBank : Question
     public static Question jungle010 = new Question();
     public static Question jungle011 = new Question();
     public static Question jungle012 = new Question();
+    public static Question jungle013 = new Question();
 
     void Start()
     {
@@ -45,34 +46,6 @@ public class JungleQuestionBank : Question
         jungle002 = new Question()
         {
             number = 2,
-            questionName = "bear",
-            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Bear"),
-            answerOptions = new List<string>()
-        {
-            "bear",
-            "horse",
-            "mouse",
-            "ant"
-        },
-            answerBlocks = new List<char>()
-        {
-            'B',
-            'E',
-            'A',
-            'R'
-        },
-            tags = new List<string>()
-        {
-            "animals"
-        },
-            size = 1,
-            answerSound = "Bear",
-            level = 1
-        };
-
-        jungle003 = new Question()
-        {
-            number = 3,
             questionName = "bee",
             sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Bee"),
             answerOptions = new List<string>()
@@ -91,9 +64,9 @@ public class JungleQuestionBank : Question
             level = 1
         };
 
-        jungle004 = new Question()
+        jungle003 = new Question()
         {
-            number = 4,
+            number = 3,
             questionName = "bird",
             sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Bird"),
             answerOptions = new List<string>()
@@ -112,37 +85,30 @@ public class JungleQuestionBank : Question
             level = 1
         };
 
-        jungle005 = new Question()
+        jungle004 = new Question()
         {
-            number = 5,
-            questionName = "duck",
-            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Duck"),
+            number = 4,
+            questionName = "flower",
+            sprite = Resources.Load<Sprite>("Questions/Home/Pre_A1_Starters/Flower"),
             answerOptions = new List<string>()
         {
-            "duck",
-            "dog",
-            "cat",
-            "horse"
-        },
-            answerBlocks = new List<char>()
-        {
-            'D',
-            'U',
-            'C',
-            'K'
+            "flower",
+            "panda",
+            "swan",
+            "bird"
         },
             tags = new List<string>()
         {
-            "animals"
+            "home"
         },
             size = 1,
-            answerSound = "Duck",
+            answerSound = "Flower",
             level = 1
         };
 
-        jungle006 = new Question()
+        jungle005 = new Question()
         {
-            number = 6,
+            number = 5,
             questionName = "frog",
             sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Frog"),
             answerOptions = new List<string>()
@@ -165,6 +131,35 @@ public class JungleQuestionBank : Question
         },
             size = 1,
             answerSound = "Frog",
+            level = 1
+        };
+
+        jungle006 = new Question()
+        {
+            number = 6,
+            questionName = "fruit",
+            sprite = Resources.Load<Sprite>("Questions/FoodAndDrink/Pre_A1_Starters/Fruit"),
+            answerOptions = new List<string>()
+        {
+            "rabbit",
+            "parrot",
+            "pig",
+            "fruit"
+        },
+            answerBlocks = new List<char>()
+        {
+            'F',
+            'R',
+            'U',
+            'I',
+            'T'
+        },
+            tags = new List<string>()
+        {
+            "foodAndDrink"
+        },
+            size = 1,
+            answerSound = "Fruit",
             level = 1
         };
 
@@ -201,27 +196,50 @@ public class JungleQuestionBank : Question
         jungle008 = new Question()
         {
             number = 8,
-            questionName = "mouse",
-            sprite = Resources.Load<Sprite>("Questions/Animals/Mouse"),
+            questionName = "mango",
+            sprite = Resources.Load<Sprite>("Questions/FoodAndDrink/Mango"),
+            answerBlocks = new List<char>()
+        {
+            'M',
+            'A',
+            'N',
+            'G',
+            'O'
+        },
+            tags = new List<string>()
+        {
+            "foodAndDrink"
+        },
+            size = 1,
+            answerSound = "Mango"
+        };
+
+        jungle009 = new Question()
+        {
+            number = 9,
+            questionName = "monkey",
+            sprite = Resources.Load<Sprite>("Questions/Animals/Monkey"),
             answerBlocks = new List<char>()
         {
             'M',
             'O',
-            'U',
-            'S',
-            'E'
+            'N',
+            'K',
+            'E',
+            'Y'
         },
             tags = new List<string>()
         {
             "animals"
         },
             size = 1,
-            answerSound = "Mouse"
+            answerSound = "Monkey"
         };
 
-        jungle009 = new Question()
+
+        jungle010 = new Question()
         {
-            number = 9,
+            number = 10,
             questionName = "snake",
             sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Snake"),
             answerOptions = new List<string>()
@@ -248,30 +266,30 @@ public class JungleQuestionBank : Question
             level = 1
         };
 
-        jungle010 = new Question()
+        jungle011 = new Question()
         {
-            number = 10,
-            questionName = "flower",
-            sprite = Resources.Load<Sprite>("Questions/Home/Pre_A1_Starters/Flower"),
+            number = 11,
+            questionName = "spider",
+            sprite = Resources.Load<Sprite>("Questions/Home/Pre_A1_Starters/Spider"),
             answerOptions = new List<string>()
         {
-            "flower",
+            "spider",
             "panda",
             "swan",
             "bird"
         },
             tags = new List<string>()
         {
-            "home"
+            "animals"
         },
             size = 1,
-            answerSound = "Flower",
+            answerSound = "Spider",
             level = 1
         };
 
-        jungle011 = new Question()
+        jungle012 = new Question()
         {
-            number = 11,
+            number = 12,
             questionName = "tail",
             sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Tail"),
             answerOptions = new List<string>()
@@ -293,6 +311,27 @@ public class JungleQuestionBank : Question
         jungle012 = new Question()
         {
             number = 12,
+            questionName = "tail",
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Tail"),
+            answerOptions = new List<string>()
+        {
+            "tail",
+            "panda",
+            "swan",
+            "bird"
+        },
+            tags = new List<string>()
+        {
+            "animals"
+        },
+            size = 1,
+            answerSound = "Tail",
+            level = 1
+        };
+
+        jungle013 = new Question()
+        {
+            number = 13,
             questionName = "tree",
             sprite = Resources.Load<Sprite>("Questions/Home/Pre_A1_Starters/Tree"),
             answerOptions = new List<string>()
@@ -342,6 +381,8 @@ public class JungleQuestionBank : Question
         questions.Add(jungle011);
 
         questions.Add(jungle012);
+
+        questions.Add(jungle013);
 
         questions = questions.OrderBy(x => System.Guid.NewGuid()).ToList();
 

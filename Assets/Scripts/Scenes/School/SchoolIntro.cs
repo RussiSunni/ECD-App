@@ -17,7 +17,7 @@ namespace V4
             }
             else
             {
-                SceneManager.LoadScene("School001");
+                SceneManager.LoadScene("SchoolSubMap");
             }
         }
     }

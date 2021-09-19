@@ -14,14 +14,10 @@ namespace V4
                        fairyNeutral,
                        fairyCorrect;
 
-        public Sprite artemisSprite;
-
         int questionNumber = 0;
         Text answerText1, answerText2, answerText3, answerText4;
         public float timeRemaining = 0;
         bool timerReady, correctAnswer, finished = false;
-        int score;
-        public Text fairyTalk;
 
         void Start()
         {
@@ -30,7 +26,6 @@ namespace V4
             answerText3 = GameObject.Find("Answer3Text").GetComponent<Text>();
             answerText4 = GameObject.Find("Answer4Text").GetComponent<Text>();
             fairyImage = GameObject.Find("Fairy").GetComponent<Image>();
-            fairyTalk = GameObject.Find("FairyTalk").GetComponent<Text>();
 
             fairyIncorrect = Resources.Load<Sprite>("V4/FairyIncorrect");
             fairyNeutral = Resources.Load<Sprite>("V4/FairyNeutral");
@@ -41,7 +36,6 @@ namespace V4
 
             // if (!GameControl.scene1Started)
             // {
-            //  fairyTalk.text = "Hi, learner. Let’s help the animals find their names.";
             //   SoundManager.playScene1Intro();
             //  answerText1.text = "Start";
             //  }
@@ -91,7 +85,6 @@ namespace V4
                 answerText4.text = ForestQuestionBank.questions[0].answerOptions[3];
                 //print(answerText4.text);
 
-                fairyTalk.text = null;
                 questionNumber++;
                 GameControl.scene1Started = true;
             }
@@ -208,7 +201,6 @@ namespace V4
                 else
                 {
                     questionImage.sprite = null;
-                    fairyTalk.text = "All finished.";
                     answerText1.text = "Next";
                     answerText2.text = null;
                     answerText3.text = null;
@@ -216,14 +208,6 @@ namespace V4
 
                     finished = true;
                 }
-            }
-
-            // add Fairy feedback based on how well they do with animals
-            score = 0;
-
-            if (score == 20)
-            {
-                fairyTalk.text = "Wow, you really know this content";
             }
         }
 

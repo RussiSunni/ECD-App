@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WildernessSubMap : MonoBehaviour
+public class WildernessSubmap : MonoBehaviour
 {
+    public void LoadWorldMap()
+    {
+        SceneManager.LoadScene("WorldMap");
+    }
     public void LoadForestSubStage()
     {
         SceneManager.LoadScene("Forest001");

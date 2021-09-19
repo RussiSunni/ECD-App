@@ -1652,6 +1652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1252272085}
   - component: {fileID: 1252272086}
+  - component: {fileID: 1252272087}
   m_Layer: 0
   m_Name: Code
   m_TagString: Untagged
@@ -1689,6 +1690,34 @@ MonoBehaviour:
   fairyImage: {fileID: 0}
   menuPanel: {fileID: 1107102147}
   menuPanelRectTransform: {fileID: 1107102145}
+  timeRemaining: 0
+--- !u!114 &1252272087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252272084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4529f2303d90c5c42940aee36336fd91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 0
+  questionName: 
+  answer: 
+  fairyTalk: 
+  answerList: []
+  sprite: {fileID: 0}
+  answerOptions: []
+  answerBlocks: 
+  answerOptionsSprites: []
+  tags: []
+  size: 0
+  answered: 0
+  known: 0
+  answerSound: 
+  level: 0
 --- !u!1 &1262870392
 GameObject:
   m_ObjectHideFlags: 0

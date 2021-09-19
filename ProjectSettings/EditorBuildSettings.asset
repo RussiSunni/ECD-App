@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Wilderness/WildernessIntro.unity
     guid: 8e9fe331f794f2b45a6cf32d12d12f1a
   - enabled: 1
-    path: Assets/Scenes/Wilderness/WildernessSubMap.unity
+    path: Assets/Scenes/Wilderness/WildernessSubmap.unity
     guid: d79dcd09f0ab910038fefe9f26217d56
   - enabled: 1
     path: Assets/Scenes/Wilderness/Wilderness001.unity
@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/School/SchoolIntro.unity
     guid: 7d34906f9b26d3148b16e74916bc538c
   - enabled: 1
-    path: Assets/Scenes/School/SchoolSubMap.unity
+    path: Assets/Scenes/School/SchoolSubmap.unity
     guid: 76ab65eb15fd149f8ae46f9cc6ba1eb1
   - enabled: 1
     path: Assets/Scenes/School/School002.unity
@@ -45,6 +45,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Town/TownIntro.unity
     guid: e118a7a1ec2d0a24a9efb13072c00522
   - enabled: 1
+    path: Assets/Scenes/Town/TownSubmap.unity
+    guid: ce717c1fc10b11f4eb759c400e230943
+  - enabled: 1
     path: Assets/Scenes/Town/Town001.unity
     guid: 7e09b7b09805f9f7db2f17e7305ddd1d
+  - enabled: 1
+    path: Assets/Scenes/House/HouseSubmap.unity
+    guid: 368822caecc62e04da4cd732a3cba44d
+  - enabled: 1
+    path: Assets/Scenes/Ocean/OceanSubmap.unity
+    guid: b534e3da40fa2f64c8c8879f430cfd02
   m_configObjects: {}
