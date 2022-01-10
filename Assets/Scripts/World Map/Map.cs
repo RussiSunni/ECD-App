@@ -25,4 +25,9 @@ public class Map : MonoBehaviour
     {
         SceneManager.LoadScene("OceanSubmap");
     }
+
+    public void LoadTempleStage()
+    {
+        SceneManager.LoadScene("Temple001");
+    }
 }

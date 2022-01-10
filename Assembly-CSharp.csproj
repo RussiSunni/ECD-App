@@ -55,17 +55,16 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Question Banks\CommunicationsAndTechnologyQuestionBank.cs" />
     <Compile Include="Assets\Scripts\Scenes\House\HouseSubmap.cs" />
-    <Compile Include="Assets\Scripts\Map\MapFairy.cs" />
+    <Compile Include="Assets\Scripts\World Map\MapFairy.cs" />
     <Compile Include="Assets\Scripts\Question Banks\FamilyQuestionBank.cs" />
-    <Compile Include="Assets\Scripts\Movement\TargetDropPanel.cs" />
+    <Compile Include="Assets\Scripts\Block Movement\TargetDropPanel.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\V4\Intro\Intro02Script.cs" />
     <Compile Include="Assets\Scripts\QuestionTemplates\MultipleChoice.cs" />
     <Compile Include="Assets\Scripts\Question Banks\SchoolQuestionBank.cs" />
     <Compile Include="Assets\Scripts\Question Banks\AnimalActionsQuestionBank.cs" />
-    <Compile Include="Assets\Scripts\Movement\DropPanel.cs" />
+    <Compile Include="Assets\Scripts\Block Movement\DropPanel.cs" />
     <Compile Include="Assets\Scripts\Scenes\Wilderness\Wilderness001.cs" />
-    <Compile Include="Assets\Scripts\V4\Intro\Intro01Script.cs" />
     <Compile Include="Assets\Scripts\Scenes\Ocean\OceanSubmap.cs" />
     <Compile Include="Assets\Scripts\Question Banks\Question.cs" />
     <Compile Include="Assets\Scripts\Question Banks\VerbsQuestionBank.cs" />
@@ -76,23 +75,19 @@
     <Compile Include="Assets\Scripts\Question Banks\ForestQuestionBank.cs" />
     <Compile Include="Assets\Scripts\Scenes\Town\TownIntro.cs" />
     <Compile Include="Assets\Scripts\V4\Intro\MapImage.cs" />
-    <Compile Include="Assets\Scripts\V4\SimpleLoadMenu.cs" />
-    <Compile Include="Assets\Scripts\Select.cs" />
+    <Compile Include="Assets\Scripts\Scenes\Temple\Select.cs" />
     <Compile Include="Assets\Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\V4\GameControl.cs" />
     <Compile Include="Assets\Scripts\Scenes\Wilderness\WildernessSubmap.cs" />
     <Compile Include="Assets\Scripts\Scenes\Town\TownSubmap.cs" />
     <Compile Include="Assets\Scripts\Scenes\Wilderness\Jungle\Jungle001.cs" />
     <Compile Include="Assets\Scripts\Scenes\Wilderness\Forest\Forest001.cs" />
-    <Compile Include="Assets\Scripts\V4\SimpleProgress.cs" />
-    <Compile Include="Assets\Scripts\Movement\DraggableBlock.cs" />
-    <Compile Include="Assets\Scripts\V4\Question.cs" />
+    <Compile Include="Assets\Scripts\Block Movement\DraggableBlock.cs" />
     <Compile Include="Assets\Scripts\V4\Intro\MapText.cs" />
-    <Compile Include="Assets\Scripts\Map\Map.cs" />
+    <Compile Include="Assets\Scripts\World Map\Map.cs" />
     <Compile Include="Assets\Scripts\Question Banks\JungleQuestionBank.cs" />
     <Compile Include="Assets\Scripts\Scenes\Wilderness\Forest\Forest002.cs" />
-    <Compile Include="Assets\Scripts\SpellBook.cs" />
-    <Compile Include="Assets\Scripts\Scenes\Wilderness\Forest\ForestNew001.cs" />
+    <Compile Include="Assets\Scripts\Scenes\Temple\SpellBook.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -757,10 +752,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{4C169DFD-D788-7FD3-063B-FD3B3212D7DF}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
