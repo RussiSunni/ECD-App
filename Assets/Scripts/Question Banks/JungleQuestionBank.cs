@@ -225,7 +225,7 @@ public class JungleQuestionBank : Question
         {
             number = 9,
             questionName = "monkey",
-            sprite = Resources.Load<Sprite>("Questions/Animals/Monkey"),
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Monkey"),
             answerOptions = new List<string>()
         {
             "monkey",
@@ -322,14 +322,14 @@ public class JungleQuestionBank : Question
             level = 1
         };
 
-        jungle012 = new Question()
+        jungle013 = new Question()
         {
-            number = 12,
-            questionName = "tail",
-            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Tail"),
+            number = 13,
+            questionName = "tiger",
+            sprite = Resources.Load<Sprite>("Questions/Animals/Pre_A1_Starters/Tiger"),
             answerOptions = new List<string>()
         {
-            "tail",
+            "tiger",
             "panda",
             "swan",
             "bird"
@@ -339,7 +339,7 @@ public class JungleQuestionBank : Question
             "animals"
         },
             size = 1,
-            answerSound = "Tail",
+            answerSound = "Tiger",
             level = 1
         };
 

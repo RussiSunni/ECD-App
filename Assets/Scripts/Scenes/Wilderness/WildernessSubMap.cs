@@ -11,7 +11,7 @@ public class WildernessSubmap : MonoBehaviour
     }
     public void LoadForestSubStage()
     {
-        SceneManager.LoadScene("Forest001");
+        SceneManager.LoadScene("ForestMinimap");
     }
     public void LoadJungleSubStage()
     {
