@@ -7,7 +7,7 @@ public class Map : MonoBehaviour
 {
     public void LoadWildernessStage()
     {
-        SceneManager.LoadScene("WildernessSubmap");
+        SceneManager.LoadScene("Wilderness001");
     }
     public void LoadSchoolStage()
     {

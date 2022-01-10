@@ -32,7 +32,7 @@ public class Jungle001 : MonoBehaviour
 
     public void Quit()
     {
-        SceneManager.LoadScene("WorldMap");
+        SceneManager.LoadScene("WildernessSubmap");
     }
     public void Cancel()
     {

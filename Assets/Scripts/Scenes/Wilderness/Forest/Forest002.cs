@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Forest002 : MonoBehaviour
 {
     public Image questionImage;
-    public static List<DictionaryLookup> dictionaryLookupsList = new List<DictionaryLookup>();
     public static int answerCounter = 0;
     int questionNumber = 0;
 
